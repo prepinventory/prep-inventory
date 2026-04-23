@@ -73,6 +73,13 @@ const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/71pZn9wlmJL._SL1500_.jpg",
     category: "Medical",
   },
+  {
+    asin: "B07FKYHTWP",
+    title: "Hand Crank NOAA Radio",
+    description: "FosPower NOAA Emergency Weather Radio A1 7400mWh Portable Power Bank, AM/FM, USB/Solar/Hand Crank Charging, Battery Operated",
+    image: "https://m.media-amazon.com/images/I/71B9hiytZnL._AC_SL1500_.jpg",
+    category: "Comms",
+  },
 ];
 
 export { PRODUCTS, amzLink, ASSOCIATE_TAG };
