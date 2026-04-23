@@ -46,6 +46,13 @@ const PRODUCTS = [
     category: "Water",
   },
   {
+    asin: "B0000BYCFU",
+    title: "Presto Pressure Cooker",
+    description: "Presto 01781 Pressure Canner and Cooker, 23 qt, Silver ",
+    image: "https://m.media-amazon.com/images/I/81I3lK0gaWL._AC_SL1500_.jpg",
+    category: "Food",
+  },
+  {
     asin: "B097Y4YXFQ",
     title: "Molle Med Kit Pouch",
     description: "Upgrade Molle Rip Away Ifak Pouch, Tactical Small Belt First Aid Pouch Medical Utility EMT Pouch Only",
