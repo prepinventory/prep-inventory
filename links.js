@@ -24,6 +24,13 @@ const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/81L7zvPAbyL._AC_SL1500_.jpg",
     category: "Food",
   }, 
+   {
+    asin: "B0F6YCRKTJ",
+    title: "Percon 3600W Power Station",
+    description: "Pecron Portable Power Station F3000LFP, 3072Wh Solar Generator, 3600W LiFePO4 Battery Home Backup, Fast Charging Lithium Battery ",
+    image: "https://m.media-amazon.com/images/I/61ZksOWm1AL._AC_SL1500_.jpg",
+    category: "Power",
+  }, 
   {
     asin: "B0CNPHD4VY",
     title: "Renogy 200W Portable Solar Panel",
