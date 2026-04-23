@@ -25,6 +25,13 @@ const PRODUCTS = [
     category: "Food",
   }, 
    {
+    asin: "B008X7FKHU",
+    title: "Canning and Pickling Salt",
+    description: "Morton Canning and Pickling Salt, Bulk Salt, 4 Pound (Pack of 1), White",
+    image: "https://m.media-amazon.com/images/I/71TREx6Q2bL._SL1500_.jpg",
+    category: "Food",
+  }, 
+   {
     asin: "B0F6YCRKTJ",
     title: "Percon 3600W Power Station",
     description: "Pecron Portable Power Station F3000LFP, 3072Wh Solar Generator, 3600W LiFePO4 Battery Home Backup, Fast Charging Lithium Battery ",
