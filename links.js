@@ -80,6 +80,13 @@ const PRODUCTS = [
     image: "https://m.media-amazon.com/images/I/71B9hiytZnL._AC_SL1500_.jpg",
     category: "Comms",
   },
+  {
+    asin: "B0F7LD34KQ",
+    title: "Meshtastic Power Bank",
+    description: "Heltec Meshtastic & LoRa Compatible Magnetic Power Bank with E-Ink Display nRF52840 and SX1262 Chips, Wireless Charging 10000mAh/5000mAh for Outdoor Emergency - MeshPocket Qi2",
+    image: "https://m.media-amazon.com/images/I/71+6V2vIffL._AC_SL1500_.jpg",
+    category: "Comms",
+  },
 ];
 
 export { PRODUCTS, amzLink, ASSOCIATE_TAG };
