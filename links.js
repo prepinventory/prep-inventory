@@ -46,6 +46,13 @@ const PRODUCTS = [
     category: "Power",
   },
   {
+    asin: "B0F42HLLSC",
+    title: "Bluetti Elite 30 Power Station",
+    description: "BLUETTI Elite 30 V2 Portable Power Station 600W (Power Lifting 1500W), 288Wh LiFePO4 Battery with 10ms UPS, Emergency Backup Powe",
+    image: "https://m.media-amazon.com/images/I/81U4ot4wFDL._AC_SL1500_.jpg",
+    category: "Power",
+  }, 
+  {
     asin: "B00FA2RLX2",
     title: "Sawyer Water Filter",
     description: "Sawyer Products Mini Water Filtration System",
