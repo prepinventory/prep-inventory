@@ -17,6 +17,13 @@ function amzLink(asin) {
 // ============================================================
 
 const PRODUCTS = [
+   {
+    asin: "B0843J11JW",
+    title: "Mountain House Food Kit",
+    description: "Mountain House Emergency Meal Assortment Kits, Freeze-Dried Survival Food Kit for Disaster Preparedness & Long-Term Storage, 30-Year Shelf Life",
+    image: "https://m.media-amazon.com/images/I/81L7zvPAbyL._AC_SL1500_.jpg",
+    category: "Food",
+  }, 
   {
     asin: "B0CNPHD4VY",
     title: "Renogy 200W Portable Solar Panel",
