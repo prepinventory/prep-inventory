@@ -80,6 +80,8 @@ body{
 .btn-green:hover{background:rgba(48,209,88,.25)}
 .btn-red   {background:rgba(255,69,58,.12);color:var(--red);border:1px solid rgba(255,69,58,.28)}
 .btn-red:hover{background:rgba(255,69,58,.22)}
+.btn-amazon{background:rgba(255,153,0,.15);color:#ff9900;border:1px solid rgba(255,153,0,.35)}
+.btn-amazon:hover{background:rgba(255,153,0,.28)}
 .btn-sm{padding:5px 11px;font-size:12px}
 
 /* ── HERO ─────────────────────────────────────────────── */
@@ -368,7 +370,10 @@ textarea{resize:vertical;min-height:58px}
 <div class="card-wrap">
   <div class="card">
     <div class="card-head">
-      <div class="card-title">Inventory</div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="card-title">Inventory</div>
+        <a href="index.html" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">🛒 Amazon Prep Items List</a>
+      </div>
       <div class="card-controls">
         <select id="fCat" onchange="render()">
           <option value="">All Categories</option>
@@ -784,6 +789,7 @@ function render() {
         <td>
           <div class="row-acts">
             <button class="btn btn-ghost btn-sm" onclick="editItem('${item.id}')">Edit</button>
+            ${['low','critical','expired'].includes(st) ? `<a href="index.html" target="_blank" rel="noopener" class="btn btn-amazon btn-sm">🛒 Purchase</a>` : ''}
             <button class="btn btn-red   btn-sm" onclick="delItem('${item.id}')">✕</button>
           </div>
         </td>
